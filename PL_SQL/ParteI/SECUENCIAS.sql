@@ -1,0 +1,36 @@
+/*
+Las secuencias tienen un valor que solo puede ser cambiado con su función .NEXTVAL
+Si no se ha usado en la sesión, la función .NEXTVAL, .CURRVAL no tendrá un valor definido todavía.
+
+Las secuencias se guardan de forma permanente en las bases de datos.
+Se usan en las columnas de las tablas que requieren el uso de un valor incremental.
+Las secuencias se usan en conjunto con los Trigger para asignar valores a columnas de tablas cuando se realiza una acción.
+*/
+
+SELECT * FROM CATEGORIES;
+
+-- CREACIÓN DE UNA SECUENCIA CON VALOR INCREMENTAL
+CREATE SEQUENCE SQ_TABLA_CATEGORIAS START WITH 4 INCREMENT BY 1;
+
+-- CREACIÓN DE UNA SECUENCIA CON VALOR MÁXIMO Y CICLICA
+CREATE SEQUENCE SQ_CICLO START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 5 CYCLE NOCACHE;
+DROP SEQUENCE SQ_CICLO;
+
+-- SE USA .NEXTVAL PARA OBTENER EL SIGUIENTE VALOR DE LA SECUENCIA, Y CAMBIAR EL VALOR DE LA MISMA.
+INSERT INTO CATEGORIES VALUES(SQ_TABLA_CATEGORIAS.NEXTVAL, 'BICICLETAS PROFESIONALES');
+INSERT INTO CATEGORIES VALUES(SQ_TABLA_CATEGORIAS.NEXTVAL, 'BICICLETAS ELECTRICAS');
+
+DECLARE
+NUMERO_ACTUAL_SECUENCIA NUMBER;
+BEGIN
+
+-- Si en la sesión actual, no se ha usado .NEXTVAL, .CURRVAL no tiene un dato definido aún.
+-- SE USA CURRVAL PARA OBTENER EL VALOR ACTUAL DE LA SECUENCIA.
+NUMERO_ACTUAL_SECUENCIA := SQ_TABLA_CATEGORIAS.CURRVAL;
+DBMS_OUTPUT.PUT_LINE(USER);
+DBMS_OUTPUT.PUT_LINE('EL VALOR ACTUAL EN LA SECUENCIA ES: ' || NUMERO_ACTUAL_SECUENCIA);
+COMMIT;
+
+END;
+
+SET SERVEROUTPUT ON;

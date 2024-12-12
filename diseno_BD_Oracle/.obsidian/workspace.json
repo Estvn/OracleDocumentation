@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "7e21c18665f626e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9dd15b138ee86b01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7519afb376a2bf2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "000cc198c65cf9f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "241237b06bde4a48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f16ab71dceb1835a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d58fd32692b6047",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a95b2ad9cf8319e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4e89e28ef56aac2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7039fd6d2853a2ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b48d9f3f771a1eb9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6109c9c42b790360",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a77600cd88c71436",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4318c37ad65c4e9a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c7519afb376a2bf2",
+  "lastOpenFiles": [
+    "seccion8_cambios_modelado_historico.md",
+    "seccion7_arcos_jerarquias_modelado_recursivo.md",
+    "seccion1_introduccion.md",
+    "Captura desde 2024-05-03 10-35-35.png"
+  ]
+}
