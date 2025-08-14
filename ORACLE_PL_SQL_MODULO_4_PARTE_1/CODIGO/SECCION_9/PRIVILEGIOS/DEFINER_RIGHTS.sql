@@ -1,0 +1,9 @@
+(Table owner or DBA): GRANT INSERT ON departments TO TOM;
+
+(Tom) CREATE OR REPLACE PROCEDURE add_dept ...
+IS BEGIN
+...
+INSERT INTO DEPARTMENTS ... ;
+...
+END;
+(Tom) GRANT EXECUTE ON add_dept TO SUSAN;

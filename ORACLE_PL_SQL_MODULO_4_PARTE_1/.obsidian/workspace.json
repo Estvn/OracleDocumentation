@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "35dfaba424a3fb30",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfe17d86d50ad889",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "046758b6caa55a3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SECCION_8/2_USANDO_PARAMETROS_PROCEDIMIENTOS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2_USANDO_PARAMETROS_PROCEDIMIENTOS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5063e693dced169",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a1ab9c1bb320967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8111b72c9d27bb79",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9f653d95235d1c09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "CASE",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f033662410eb8d6f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "25d987714a3ad010",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2a05c0ee23960fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5422088f2d5b85a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CREACION_BLOQUE_PLSQL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CREACION_BLOQUE_PLSQL"
+            }
+          },
+          {
+            "id": "67954459f5f33460",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CREACION_BLOQUE_PLSQL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CREACION_BLOQUE_PLSQL"
+            }
+          },
+          {
+            "id": "1931d68ddcfed72f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "25a088b69ad9bd1f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CREACION_BLOQUE_PLSQL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CREACION_BLOQUE_PLSQL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "046758b6caa55a3f",
+  "lastOpenFiles": [
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA.zip",
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA/~$IDENCIAS_TAREA_3.docx",
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA/EVIDENCIAS_TAREA_3.docx",
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA/EVIDENCIAS_TAREA_3~AEDA8.tmp",
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA/FUNCION_DIVIDIR.sql",
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA/PROCEDIMIENTO_ACTUALIZAR_SALARIO.sql",
+    "Tareas/ACTIVIDAD_3_ESTIVEN_MEJIA",
+    "Tareas/Nueva carpeta",
+    "SECCION_5/5_USO_CURSOR_ACTUALIZAR.md",
+    "SECCION_4/2_ESTRUCTURA_CONDICIONAL_CASE.md",
+    "SECCION_4/1_ESTRUCTURA_CONDICIONAL_IF.md",
+    "SECCION_5/6_USO_MULTIPLES_CURSORES.md",
+    "SECCION_5/4_CURSOR_CON_PARAMETROS.md",
+    "SECCION_9/6_USO_DERECHOS_INVOCADOR_TRANSACCIONES_AUTONOMAS.md",
+    "CODIGO/SECCION_9/AUTONOMOUS_TRANSACTION/AUTONOMOUS_TRANSACTION_2.sql",
+    "CODIGO/SECCION_9/AUTONOMOUS_TRANSACTION/PRAGMA_AUTONOMOUS_TRANSACTION.sql",
+    "SECCION_7/2_ATRAPANDO_EXCEPCIONES_ORACLE_SERVER.md",
+    "CODIGO/SECCION_9/AUTONOMOUS_TRANSACTION",
+    "SECCION_9/5_REVISION_PRIVILEGIOS_OBJETOS.md",
+    "SECCION_9/4_MANEJO_PROCEDIMIENTOS_FUNCIONES.md",
+    "SECCION_9/3_REVISION_DICCIONARIO_DATOS.md",
+    "SECCION_9/2_USANDO_FUNCIONES_DECLARACIONES_SQL.md",
+    "SECCION_9/1_CREANDO_FUNCIONES.md",
+    "SECCION_6/2_INDEXANDO_TABLAS_RECORDS.md",
+    "SECCION_8/3_PASANDO_PARAMETROS.md",
+    "SECCION_8/2_USANDO_PARAMETROS_PROCEDIMIENTOS.md",
+    "SECCION_8/1_CREACION_PROCEDIMIENTOS.md",
+    "SECCION_7/3_ATRAPANDO_EXCEPCIONES_DEFINIDAS_USUARIO.md",
+    "SECCION_7/4_RECONOCIENDO_ALCANCE_EXCEPCIONES.md",
+    "SECCION_7/1_MANEJO_EXCEPCIONES.md",
+    "SECCION_6/1_RECORD_DEFINIDOS_USUARIO.md",
+    "SECCION_2/6_BLOQUES_ANIDADOS_VARIABLES_ALCANCE.md",
+    "SECCION_3/3_MANIPULANDO_DATA_PL_SQL.md",
+    "SECCION_4/3_CONTROL_ITERATIVO_CICLO_BASICO.md",
+    "SECCION_5/2_USO_ATRIBUTOS_CURSORES_EXPLICITOS.md",
+    "SECCION_5/3_CICLOS_FOR_CURSORES.md",
+    "Pasted image 20250709154342.png",
+    "Pasted image 20250708214638.png",
+    "Pasted image 20250708214603.png",
+    "Pasted image 20250630105948.png",
+    "Pasted image 20250629211746.png"
+  ]
+}
