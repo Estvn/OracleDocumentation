@@ -1,24 +1,18 @@
 {
   "main": {
-    "id": "9e17017f9033194f",
+    "id": "7e21c18665f626e4",
     "type": "split",
     "children": [
       {
-        "id": "4d526275cbefc49f",
+        "id": "9dd15b138ee86b01",
         "type": "tabs",
         "children": [
           {
-            "id": "99ef5e9fefe28312",
+            "id": "c7519afb376a2bf2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RESTRICCIONES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RESTRICCIONES"
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -27,74 +21,66 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "519fce22c301319b",
+    "id": "000cc198c65cf9f9",
     "type": "split",
     "children": [
       {
-        "id": "36ce5c2726d81e3e",
+        "id": "241237b06bde4a48",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2dd0ce37ae9347",
+            "id": "f16ab71dceb1835a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
-            "id": "ea60caa880631bab",
+            "id": "0d58fd32692b6047",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "constrai",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
-            "id": "50e0b65849eafcd2",
+            "id": "3a95b2ad9cf8319e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 249.50499725341797,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "9b11c80c27231c52",
+    "id": "4e89e28ef56aac2b",
     "type": "split",
     "children": [
       {
-        "id": "e7691aa13f877b0a",
+        "id": "7039fd6d2853a2ae",
         "type": "tabs",
         "children": [
           {
-            "id": "0092dade46538e7e",
+            "id": "b48d9f3f771a1eb9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FUNCIONES_UNA_FILA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,48 +88,37 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for FUNCIONES_UNA_FILA"
+              }
             }
           },
           {
-            "id": "7b88dea2126fc310",
+            "id": "6109c9c42b790360",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FUNCIONES_UNA_FILA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from FUNCIONES_UNA_FILA"
+              }
             }
           },
           {
-            "id": "6e216a29f56730e2",
+            "id": "a77600cd88c71436",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
-            "id": "f325816646392b6e",
+            "id": "4318c37ad65c4e9a",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "FUNCIONES_UNA_FILA.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of FUNCIONES_UNA_FILA"
+              "state": {}
             }
           }
         ]
@@ -163,33 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99ef5e9fefe28312",
+  "active": "c7519afb376a2bf2",
   "lastOpenFiles": [
-    "PRIVILEGIOS_EXPRESIONES_REGULARES.md",
-    "DDL.md",
-    "FUNCIONES_UNA_FILA_PARTE1.md",
-    "FUNCIONES_UNA_FILA_PARTE2.md",
-    "SECUENCIAS_SINONIMOS.md",
-    "SUBCONSULTAS.md",
-    "JOINS_PARTE2.md",
-    "FUNCIONES_DE_GRUPO_PARTE1.md",
-    "FUNCIONES_DE_GRUPO_PARTE2.md",
-    "JOINS_PARTE1.md",
-    "Pasted image 20241103130722.png",
-    "Pasted image 20241108094815.png",
-    "DML.md",
-    "TCL.md",
-    "Pasted image 20241031144355.png",
-    "RESTRICCIONES.md",
-    "VISTAS.md",
-    "FASES_SISTEMA_DIAGRAMA_GANTT.md",
-    "WHERE_ORDERBY_INTRODUCCION_FUNCIONES.md",
-    "Pasted image 20241103120131.png",
-    "Pasted image 20241108094731.png",
-    "ASEGURANDO_CALIDAD_RESULTADO_CONSULTAS.md",
-    "Pasted image 20241103125940.png",
-    "informacion_relevante.md",
-    "Welcome.md",
-    "Untitled"
+    "seccion8_cambios_modelado_historico.md",
+    "seccion7_arcos_jerarquias_modelado_recursivo.md",
+    "seccion1_introduccion.md",
+    "Captura desde 2024-05-03 10-35-35.png"
   ]
 }
