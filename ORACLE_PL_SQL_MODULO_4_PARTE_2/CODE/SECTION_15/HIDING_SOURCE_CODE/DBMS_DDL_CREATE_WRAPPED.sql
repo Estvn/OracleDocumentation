@@ -1,0 +1,17 @@
+BEGIN
+	DBMS_DDL.CREATE_WRAPPED('
+		CREATE OR REPLACE PROCEDURE mycleverproc
+		(p_param1 IN NUMBER, p_param2 OUT NUMBER)
+		IS 
+		BEGIN
+			... /* some clever but provate code here */
+		END mycleverproc;
+	');
+END;
+
+GRANT EXECUTE ON mycleverproc TO SUSAN;
+
+SELECT TEXT FROM ALL_SOURCE 
+WHERE OWNER = 'YOU' AND TYPE = 'PROCEDURE'
+AND NAME = 'MYCLEVERPROC'
+ORDER BY LINE;

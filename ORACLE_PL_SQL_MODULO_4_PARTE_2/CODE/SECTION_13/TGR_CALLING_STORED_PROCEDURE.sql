@@ -1,0 +1,11 @@
+CREATE OR REPLACE PROCEDURE showmsg 
+AS 
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Showing msg');
+END;
+
+CREATE OR REPLACE TRIGGER showmsg_trig
+BEFORE INSERT ON employees
+BEGIN
+    showmsg;
+END;

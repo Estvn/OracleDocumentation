@@ -1,0 +1,16 @@
+CREATE OR REPLACE TRIGGER secure_emp
+	BEFORE INSERT OR UPDATE OR DELETE ON employees
+BEGIN
+	
+	IF TO_CHAR(SYSDATE, 'DY') IN ('SAT', 'SUN') THEN
+		IF DELETING THEN 
+			RAISE_APPLICATION_ERROR(-20501, 'Cannot delete in weekends');
+		
+		ELSIF INSERTING THEN
+			RAISE_APPLICATION_ERROR(-20502, 'Cannot insert in weekends');
+			
+		ELSIF UPDATING THEN
+			RAISE_APPLICATION_ERROR(-20503, 'Cannot update in weekends');
+		END IF;
+	END IF;
+END;	

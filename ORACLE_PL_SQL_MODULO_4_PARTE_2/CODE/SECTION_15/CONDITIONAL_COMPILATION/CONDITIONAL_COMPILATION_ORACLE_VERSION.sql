@@ -1,0 +1,13 @@
+CREATE OR REPLACE FUNCTION lets_be_real
+	RETURN NUMBER
+	$IF DBMS_DB_VERSION.VERSION >= 11 $THEN
+		DETERMINISTIC
+	$END
+IS
+BEGIN
+	RETURN 17;
+END lets_be_real;
+
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('Function returned ' || lets_be_real);
+END lets_be_real;

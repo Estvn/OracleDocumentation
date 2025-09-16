@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "103328bebdd27a33",
+    "type": "split",
+    "children": [
+      {
+        "id": "84580ada37ba912d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "938ffcc5a298f95e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SECTION_15/4_HIDING_SOURCE_CODE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4_HIDING_SOURCE_CODE"
+            }
+          },
+          {
+            "id": "2b32d696da020735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TAREA_2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TAREA_2"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9e57eebcd909153",
+    "type": "split",
+    "children": [
+      {
+        "id": "61b4f572f2f2ab2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d23655a1afc84db4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6762b0cc2a0843bd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4b5fcbb15049ab5c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "409da838ad8b9233",
+    "type": "split",
+    "children": [
+      {
+        "id": "8dc08a1e7cba6cb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ed44296b7cec1d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SECTION_10/1_CREATING_PACKAGES.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1_CREATING_PACKAGES"
+            }
+          },
+          {
+            "id": "ae56543b929c7620",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SECTION_10/1_CREATING_PACKAGES.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1_CREATING_PACKAGES"
+            }
+          },
+          {
+            "id": "76c61926b5544aae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "48f2f9a5fe6bb2e2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SECTION_10/1_CREATING_PACKAGES.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1_CREATING_PACKAGES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2b32d696da020735",
+  "lastOpenFiles": [
+    "TAREAS/ACTIVIDAD_2.sql",
+    "SECTION_15/4_HIDING_SOURCE_CODE.md",
+    "TAREA_2.md",
+    "TAREAS/ACTIVIDAD_1.sql",
+    "TAREAS/ACTIVIDAD_1.md",
+    "CODE/SECTION_15/HIDING_SOURCE_CODE/DBMS_DDL_CREATE_WRAPPED.sql",
+    "CODE/SECTION_15/HIDING_SOURCE_CODE/DBMS_DLL_CREATE_WRAPPED.sql",
+    "CODE/SECTION_15/HIDING_SOURCE_CODE",
+    "CODE/SECTION_15/Nueva carpeta",
+    "SECTION_15/1_USING_PL_SQL_INITIALIZATION_PARAMETERS.md",
+    "SECTION_15/3_USING_CONDITIONAL_COMPILATION.md",
+    "CODE/SECTION_15/PLSQL_CCFLAGS/USER_PLSQL_OBJECT_SETTINGS.sql",
+    "CODE/SECTION_15/PLSQL_CCFLAGS/MANAGING_TWO_VARIABLES.sql",
+    "CODE/SECTION_15/PLSQL_CCFLAGS/PLSQL_CCFLAGS_2.sql",
+    "CODE/SECTION_15/PLSQL_CCFLAGS/PLSQL_CCFLAGS_1.sql",
+    "CODE/SECTION_15/PLSQL_CCFLAGS",
+    "SECTION_15/2_DISPLAYING_COMPILER_WARNING_MESSAGES.md",
+    "SECTION_14/2_UNDERSTANDING_REMOTE_DEPENDENCIES.md",
+    "SECTION_14/1_INTRODUCTION_DEPENDENCIES.md",
+    "SECTION_13/3_CREATING_DML_TRIGGERS_2.md",
+    "Pasted image 20250908104555.png",
+    "SECTION_13/5_MANAGING_TRIGGERS.md",
+    "SECTION_13/4_CREATING_DDL_DATABASE_EVENT_TRIGGERS.md",
+    "SECTION_13/2_CREATING_DML_TRIGGERS_1.md",
+    "Pasted image 20250906160458.png",
+    "Pasted image 20250906160446.png",
+    "SECTION_13/1_INTRODUCTION_TRIGGERS.md",
+    "SECTION_12/2_IMPROVING_PL_SQL_PERFORMANCE.md",
+    "SECTION_12/1_USING_DYNAMIC_SQL.md",
+    "SECTION_11/2_ORACLE_SUPPLIED_PACKAGES.md",
+    "SECTION_10/1_CREATING_PACKAGES.md",
+    "SECTION_10/2_MANAGING_PACKAGE_CONCEPTS.md",
+    "SECTION_10/3_ADVANCE_PACKAGE_CONCEPTS.md",
+    "SECTION_11/1_PERSISTENT_STATE_PACKAGE_VARIABLES.md"
+  ]
+}

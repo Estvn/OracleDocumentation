@@ -1,0 +1,5 @@
+CREATE OR REPLACE TRIGGER prevent_drop_trigg
+BEFORE DROP ON SCHEMA
+BEGIN
+    RAISE_APPLICATION_ERROR (-20203, 'Attempted drop - failed');
+END;

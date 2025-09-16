@@ -1,0 +1,7 @@
+CREATE OR REPLACE TRIGGER log_emps 
+	AFTER UPDATE OF salary ON employees
+	FOR EACH ROW
+BEGIN
+	INSERT INTO log_emp_table(who, when)
+	VALUES (USER, SYSDATE);
+END;
